@@ -207,9 +207,19 @@ Generative AI and agentic modules emit structured traces to [Langfuse](https://l
 
 ## Notebooks
 
-Each module has a standalone Colab notebook covering data loading, EDA, training, evaluation, and inference. See [`notebooks/`](notebooks/).
+Each module has a standalone Colab notebook covering data loading, EDA, training, evaluation, and inference.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aurovindhya/ml-portfolio-suite/blob/main/notebooks/)
+| # | Notebook | Module | Key concepts |
+|---|----------|--------|--------------|
+| 01 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aurovindhya/ml-portfolio-suite/blob/main/notebooks/01_FlightFare_Colab.ipynb) | Flight Fare | XGBoost, feature engineering, SHAP importance |
+| 02 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aurovindhya/ml-portfolio-suite/blob/main/notebooks/02_HousePrices_Colab.ipynb) | House Prices | Stacked ensemble, OOF predictions, log-transform |
+| 03 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aurovindhya/ml-portfolio-suite/blob/main/notebooks/03_GoldPrices_Colab.ipynb) | Gold Prices | TimeSeriesSplit CV, RSI, MACD, lag features |
+| 04 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aurovindhya/ml-portfolio-suite/blob/main/notebooks/04_ChestDisease_Colab.ipynb) | Chest Disease | EfficientNet, multi-label BCE, Grad-CAM |
+| 05 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aurovindhya/ml-portfolio-suite/blob/main/notebooks/05_HeartDisease_Colab.ipynb) | Heart Disease | LightGBM, SHAP waterfall, threshold tuning |
+| 06 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aurovindhya/ml-portfolio-suite/blob/main/notebooks/06_SpamFilter_Colab.ipynb) | Spam Filter | Char n-grams, soft ensemble, precision vs recall |
+| 07 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aurovindhya/ml-portfolio-suite/blob/main/notebooks/07_GenerativeAI_Colab.ipynb) | Generative AI | Chatbot, RAG pipeline, medical guardrails |
+| 08 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aurovindhya/ml-portfolio-suite/blob/main/notebooks/08_HandTracking_Colab.ipynb) | Hand Tracking | MediaPipe landmarks, gesture rules, Grad-CAM |
+| 09 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aurovindhya/ml-portfolio-suite/blob/main/notebooks/09_MarketInsights_Colab.ipynb) | Market Insights | Agentic workflow, tool-calling, eval scores |
 
 ---
 
